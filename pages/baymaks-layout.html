@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+  <title>Layout &rsaquo; Transprent Sidebar &mdash; Baymaks</title>
+
+  <!-- General CSS Files -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="./../assets/modules/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- CSS Libraries -->
+  <link rel="stylesheet" href="./../assets/modules/datatables/datatables.min.css">
+  <link rel="stylesheet" href="./../assets/modules/datatables/DataTables-1.10.16/css/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" href="./../assets/modules/datatables/Select-1.2.4/css/select.bootstrap4.min.css">
+
+  <link rel="stylesheet" href="./../assets/modules/bootstrap-daterangepicker/daterangepicker.css">
+  <link rel="stylesheet" href="./../assets/modules/jquery-selectric/selectric.css">
+  <link rel="stylesheet" href="./../assets/modules/ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="./../assets/modules/jqvmap/dist/jqvmap.min.css">
+  <link rel="stylesheet" href="./../assets/modules/weather-icon/css/weather-icons.min.css">
+  <link rel="stylesheet" href="./../assets/modules/weather-icon/css/weather-icons-wind.min.css">
+  <link rel="stylesheet" href="./../assets/modules/summernote/summernote-bs4.css">
+  <link rel="stylesheet" href="./../assets/modules/datatables/Select-1.2.4/css/select.bootstrap4.min.css">
+  <link rel="stylesheet" href="./../assets/modules/select2/dist/css/select2.min.css">
+  <link rel="stylesheet" href="./../assets/modules/bootstrap-timepicker/css/bootstrap-timepicker.min.css">
+
+
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="./../assets/css/stylev2.css">
+  <link rel="stylesheet" href="./../assets/css/components.css">
+</head>
+
+<body class="layout-2">
+  <div id="app">
+    <div class="main-wrapper">
+      <div class="navbar-bg"></div>
+      <nav class="navbar navbar-expand-lg main-navbar">
+        <a href="index.html" class="navbar-brand sidebar-gone-hide">Baymaks</a>
+        <a href="#" class="nav-link sidebar-gone-show" data-toggle="sidebar"><i class="fas fa-bars"></i></a>
+        <div class="nav-collapse">
+          <!-- <a class="sidebar-gone-show nav-collapse-toggle nav-link" href="#">
+            <i class="fas fa-ellipsis-v"></i>
+          </a> -->
+          <!-- <ul class="navbar-nav">
+            <li class="nav-item active"><a href="#" class="nav-link">Application</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Report Something</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Server Status</a></li>
+          </ul> -->
+        </div>
+        <form class="form-inline ml-auto">
+          <ul class="navbar-nav">
+            <!-- <li><a href="#" data-toggle="search" class="nav-link nav-link-lg d-sm-none"><i class="fas fa-search"></i></a></li> -->
+            <li class="nav-item"><a href="#" class="nav-link">Created by BIGIO 2021</a></li>
+          </ul>
+          <!-- <div class="search-element">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search" data-width="250">
+            <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+            <div class="search-backdrop"></div>
+            <div class="search-result">
+              <div class="search-header">
+                Histories
+              </div>
+              <div class="search-item">
+                <a href="#">How to hack NASA using CSS</a>
+                <a href="#" class="search-close"><i class="fas fa-times"></i></a>
+              </div>
+              <div class="search-item">
+                <a href="#">Kodinger.com</a>
+                <a href="#" class="search-close"><i class="fas fa-times"></i></a>
+              </div>
+              <div class="search-item">
+                <a href="#">#Stisla</a>
+                <a href="#" class="search-close"><i class="fas fa-times"></i></a>
+              </div>
+              <div class="search-header">
+                Result
+              </div>
+              <div class="search-item">
+                <a href="#">
+                  <img class="mr-3 rounded" width="30" src="./../assets/img/products/product-3-50.png" alt="product">
+                  oPhone S9 Limited Edition
+                </a>
+              </div>
+              <div class="search-item">
+                <a href="#">
+                  <img class="mr-3 rounded" width="30" src="./../assets/img/products/product-2-50.png" alt="product">
+                  Drone X2 New Gen-7
+                </a>
+              </div>
+              <div class="search-item">
+                <a href="#">
+                  <img class="mr-3 rounded" width="30" src="./../assets/img/products/product-1-50.png" alt="product">
+                  Headphone Blitz
+                </a>
+              </div>
+              <div class="search-header">
+                Projects
+              </div>
+              <div class="search-item">
+                <a href="#">
+                  <div class="search-icon bg-danger text-white mr-3">
+                    <i class="fas fa-code"></i>
+                  </div>
+                  Stisla Admin Template
+                </a>
+              </div>
+              <div class="search-item">
+                <a href="#">
+                  <div class="search-icon bg-primary text-white mr-3">
+                    <i class="fas fa-laptop"></i>
+                  </div>
+                  Create a new Homepage Design
+                </a>
+              </div>
+            </div>
+          </div> -->
+        </form>
+        <ul class="navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+              <div class="d-sm-none d-lg-inline-block">Halo, <strong>Asep Silet!</strong> &nbsp;</div>
+              <img alt="image" src="./../assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <div class="dropdown-title">Logged in 5 min ago</div>
+              <a href="features-settings.html" class="dropdown-item has-icon">
+                <i class="fas fa-cog"></i> Ganti Password
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item has-icon text-danger">
+                <i class="fas fa-sign-out-alt"></i> Logout
+              </a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="main-sidebar">
+        <aside id="sidebar-wrapper">
+          <div class="sidebar-brand sidebar-gone-show"><a href="index.html">Baymaks</a></div>
+            <ul class="sidebar-menu">
+              <li class="active"><a class=" mt-1 mb-1" href="#"><i class="fas fa-user-md fa-lg"></i> <span>Master Gejala</span></a></li>
+              <li><a class="mt-1 mb-1" href="#"><i class="fas fa-virus fa-lg"></i> <span>Master Penyakit</span></a></li>
+              <li><a class="mt-1 mb-1" href="#"><i class="fas fa-prescription-bottle-alt fa-lg"></i> <span>Master Obat</span></a></li>
+              <li><a class="mt-1 mb-1" href="#"><i class="fas fa-cog fa-lg"></i> <span>Pengaturan</span></a></li>
+              <li></li>
+            </ul>
+
+            <!-- <div class="mt-1 mb-1 p-3 hide-sidebar-mini">
+              <a href="#" class="btn btn-primary btn-lg btn-block btn-icon-split">
+                <i class="fas fa-rocket"></i> Menu Link
+              </a>
+            </div> -->
+        </aside>
+      </div>
+
+      <!-- Main Content -->
+      <div class="main-content">
+        <section class="section">
+          <!-- <div class="section-header">
+          </div> -->
+          <div class="section-body">
+            <!-- <h2 class="section-title">This is Example Page</h2>
+            <p class="section-lead">This page is just an example for you to create your own page.</p> -->
+            <span>Master Gejala</span>
+            <h2>Data Master Gejala</h2>
+
+            <div class="row">
+              <div class="col-md-9">
+                <div class="card">
+                  <div class="card-body">
+                    
+                    <div class="table-responsive">
+
+                      <table class="table" id="table-1" width="100%">
+                        <thead>                                 
+                          <tr>
+                            <th class="text-center" width="10%">
+                              No.
+                            </th>
+                            <th>ID Penyakit</th>
+                            <th>Nama Penyakit</th>
+                            <th></th>
+                          </tr>
+                        </thead>
+                        <tbody>                                 
+                          <tr>
+                            <td class="text-center">1</td>
+                            <td>P0001</td>
+                            <td>Infeksi saluran pernafasan</td>
+                            <td>
+                              <a href="#" title="Ubah Data"><i class="fas fa-edit"></i></a> | 
+                              <a href="#" title="Hapus Data"><i class="fas fa-trash-alt"></i></a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="card card-statistic-1 bg-color-card-1 round-card-12 p-2">
+                      <div class="card-icon round-card-24 bg-primary">
+                        <i class="fas fa-user-tag"></i>
+                      </div>
+                      <div class="card-wrap">
+                        <div class="card-body font-color-black-pm pt-3">
+                          <h3 class="mb-n1">189</h3>
+                          <small>Jumlah Gejala</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="card card-statistic-1 bg-color-card-2 round-card-12 p-2">
+                      <div class="card-icon round-card-24 bg-danger">
+                        <i class="fas fa-viruses"></i>
+                      </div>
+                      <div class="card-wrap">
+                        <div class="card-body font-color-black-pm pt-3">
+                          <h3 class="mb-n1">68</h3>
+                          <small>Jumlah Penyakit</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="card card-statistic-1 bg-color-card-3 round-card-12 p-2">
+                      <div class="card-icon round-card-24 bg-warning">
+                        <i class="fas fa-prescription-bottle-alt"></i>
+                      </div>
+                      <div class="card-wrap">
+                        <div class="card-body font-color-black-pm pt-3">
+                          <h3 class="mb-n1">256</h3>
+                          <small>Jumlah Obat</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+        </section>
+      </div>
+      <footer class="main-footer">
+        <div class="footer-left">
+          Copyright &copy; 2021 <div class="bullet"></div> App By <a href="#">SEKAONE</a>
+        </div>
+        <div class="footer-right">
+          v0.0.1 Alpha
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <!-- General JS Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./../assets/js/stisla.js"></script>
+
+  <!-- JS Libraies -->
+  <script src="./../assets/modules/simple-weather/jquery.simpleWeather.min.js"></script>
+  <script src="./../assets/modules/chart.min.js"></script>
+  <script src="./../assets/modules/jqvmap/dist/jquery.vmap.min.js"></script>
+  <script src="./../assets/modules/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+  <script src="./../assets/modules/summernote/summernote-bs4.js"></script>
+  <script src="./../assets/modules/chocolat/dist/js/jquery.chocolat.min.js"></script>
+  <script src="./../assets/modules/bootstrap-daterangepicker/daterangepicker.js"></script>
+  <script src="./../assets/modules/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
+  <script src="./../assets/modules/sweetalert/sweetalert.min.js"></script>
+  <script src="./../assets/modules/jquery-pwstrength/jquery.pwstrength.min.js"></script>
+  <script src="./../assets/modules/sticky-kit.js"></script>
+  <script src="./../assets/modules/datatables/datatables.min.js"></script>
+  <script src="./../assets/modules/datatables/DataTables-1.10.16/js/dataTables.bootstrap4.min.js"></script>
+  <script src="./../assets/modules/datatables/Select-1.2.4/js/dataTables.select.min.js"></script>
+  <script src="./../assets/modules/jquery-ui/jquery-ui.min.js"></script>
+
+  <!-- Page Specific JS File -->
+  <script src="./../assets/js/page/modules-sweetalert.js"></script>
+  <script src="./../assets/modules/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
+  <script src="./../assets/modules/select2/dist/js/select2.full.min.js"></script>
+  <script src="./../assets/js/page/modules-datatables.js"></script>
+
+  <!-- Template JS File -->
+  <script src="./../assets/js/scripts.js"></script>
+  <script src="./../assets/js/custom.js"></script>
+</body>
+</html>
